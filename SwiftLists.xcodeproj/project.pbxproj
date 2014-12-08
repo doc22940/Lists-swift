@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0BA6781A361F5000EF9CD7 /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0BA6771A361F5000EF9CD7 /* Dropbox.framework */; };
 		4C4A6ABC19D7467A00320DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A6ABB19D7467A00320DF3 /* AppDelegate.swift */; };
 		4C4A6ABE19D7467A00320DF3 /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A6ABD19D7467A00320DF3 /* ListsViewController.swift */; };
 		4C4A6AC119D7467A00320DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A6ABF19D7467A00320DF3 /* Main.storyboard */; };
 		4C4A6AC319D7467B00320DF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A6AC219D7467B00320DF3 /* Images.xcassets */; };
 		4C4A6AC619D7467B00320DF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A6AC419D7467B00320DF3 /* LaunchScreen.xib */; };
 		4C4A6AD219D7467B00320DF3 /* SwiftListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A6AD119D7467B00320DF3 /* SwiftListsTests.swift */; };
-		4C4A6ADC19D7491600320DF3 /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4A6ADB19D7491600320DF3 /* Dropbox.framework */; };
 		4C4A6ADF19D7494200320DF3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4A6ADE19D7494200320DF3 /* CFNetwork.framework */; };
 		4C4A6AE119D7494600320DF3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4A6AE019D7494600320DF3 /* Security.framework */; };
 		4C4A6AE319D7495000320DF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4A6AE219D7495000320DF3 /* SystemConfiguration.framework */; };
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0BA6771A361F5000EF9CD7 /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
 		4C4A6AB619D7467A00320DF3 /* SwiftLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4A6ABA19D7467A00320DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4A6ABB19D7467A00320DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		4C4A6ACB19D7467B00320DF3 /* SwiftListsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftListsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4A6AD019D7467B00320DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4A6AD119D7467B00320DF3 /* SwiftListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListsTests.swift; sourceTree = "<group>"; };
-		4C4A6ADB19D7491600320DF3 /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
 		4C4A6ADE19D7494200320DF3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		4C4A6AE019D7494600320DF3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4C4A6AE219D7495000320DF3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -67,7 +67,7 @@
 				4C4A6AE719D7496200320DF3 /* libc++.dylib in Frameworks */,
 				4C4A6AE919D7498100320DF3 /* libz.dylib in Frameworks */,
 				4C4A6ADF19D7494200320DF3 /* CFNetwork.framework in Frameworks */,
-				4C4A6ADC19D7491600320DF3 /* Dropbox.framework in Frameworks */,
+				4C0BA6781A361F5000EF9CD7 /* Dropbox.framework in Frameworks */,
 				4C4A6AE519D7495900320DF3 /* QuartzCore.framework in Frameworks */,
 				4C4A6AE119D7494600320DF3 /* Security.framework in Frameworks */,
 				4C4A6AE319D7495000320DF3 /* SystemConfiguration.framework in Frameworks */,
@@ -151,7 +151,7 @@
 				4C4A6AE619D7496200320DF3 /* libc++.dylib */,
 				4C4A6AE819D7498100320DF3 /* libz.dylib */,
 				4C4A6ADE19D7494200320DF3 /* CFNetwork.framework */,
-				4C4A6ADB19D7491600320DF3 /* Dropbox.framework */,
+				4C0BA6771A361F5000EF9CD7 /* Dropbox.framework */,
 				4C4A6AE419D7495900320DF3 /* QuartzCore.framework */,
 				4C4A6AE019D7494600320DF3 /* Security.framework */,
 				4C4A6AE219D7495000320DF3 /* SystemConfiguration.framework */,

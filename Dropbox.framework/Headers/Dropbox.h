@@ -1,5 +1,6 @@
 /* Copyright (c) 2012 Dropbox, Inc. All rights reserved. */
 
+#import <Foundation/Foundation.h>
 #import <Dropbox/DBAccount.h>
 #import <Dropbox/DBAccountInfo.h>
 #import <Dropbox/DBAccountManager.h>

@@ -4,7 +4,7 @@
 #import "DBAccountInfo.h"
 #import "DBUtil.h"
 
-/** The account represents a particular user who has linked his account to your app. You can get
+/** The account represents a particular user who has linked their account to your app. You can get
  account objects from the [account manager](DBAccountManager).*/
 
 @interface DBAccount : NSObject
