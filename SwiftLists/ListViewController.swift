@@ -175,7 +175,7 @@ class ListViewController: UITableViewController {
     
     // Navigation
     
-    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+    override func shouldPerformSegueWithIdentifier(identifier: String?, sender: AnyObject?) -> Bool {
         let account = DBAccountManager.sharedManager().linkedAccount
         
         if account == nil {

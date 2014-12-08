@@ -16,9 +16,9 @@ class PickerCell: UITableViewCell {
     
     
     func updateRole(role:DBRole, effectiveRole:DBRole) {
-        self.picker.selectRow(role.toRaw(), inComponent: 0, animated: false)
+        self.picker.selectRow(role.rawValue, inComponent: 0, animated: false)
         
-        let isEnabled: Bool = effectiveRole.toRaw() >= DBRole.Editor.toRaw()
+        let isEnabled: Bool = effectiveRole.rawValue >= DBRole.Editor.rawValue
         self.picker.userInteractionEnabled = isEnabled
         self.picker.alpha = isEnabled ? 1.0 : 0.6
     }
