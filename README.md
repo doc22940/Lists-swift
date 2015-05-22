@@ -1,3 +1,5 @@
+**Update: The Datastore API has been deprecated. [Learn more.](https://blogs.dropbox.com/developers/2015/04/deprecating-the-sync-and-datastore-apis/)**
+
 # Lists
 
 This app demonstrates the [Dropbox Datastore API](https://www.dropbox.com/developers/datastore), in particular the use of datastore sharing to support collaboration. You can try the app at [dslists.site44.com](https://dslists.site44.com).
