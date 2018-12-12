@@ -1,4 +1,4 @@
-**Update: The Datastore API has been deprecated. [Learn more.](https://blogs.dropbox.com/developers/2015/04/deprecating-the-sync-and-datastore-apis/)**
+**Note: The Datastore API has been retired. [Learn more.](https://blogs.dropbox.com/developers/2015/04/deprecating-the-sync-and-datastore-apis/)**
 
 # Lists
 
